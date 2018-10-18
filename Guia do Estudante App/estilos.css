@@ -1,0 +1,2240 @@
+
+*{
+		font-family: arial;
+		font-size: 16px;
+
+}
+
+img {
+	max-width: 100%;
+}
+
+html{
+	font-family: arial;
+	position: relative;
+	margin: 0;
+	padding: 0;
+
+
+}
+
+
+.bodyIndex{
+	background-image: url(fundo2.png);
+	width: 100%;
+	height: 100%;
+	
+}
+
+header{
+	background-color: #EEEE00;
+	background-image: url(fundo3.jpg);
+	color: white;
+	margin: 0;
+	position: fixed;
+	width: 100%;
+	height: 20%;
+	left: 0;
+	top: 0;
+	text-align: center;
+	/*text-shadow: 6px -6px 12px black;*/
+	z-index: 3;
+	display: block;
+}
+
+
+
+.secTitulo{
+	position: relative;
+	background-color: rgba(0,0,0,0.7);
+	width: 100%;
+	height: 100%;
+	top: 0
+	margin:0;
+	padding: 0;
+	display: inline-block;
+
+	  box-shadow: 5px 5px 0 #333;
+   -webkit-box-shadow: 5px 5px 0 #333;
+   -moz-box-shadow: 5px 5px 0 #333;
+
+
+
+}
+
+
+.titulo{
+	padding-top: 5%;
+	margin: 0;
+	font-size: 1.3em;
+}
+
+.tituloUTF{
+	padding-bottom: 0;
+	margin-top: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.faixaPergunta{
+	background-color: #2E8B57;
+	position: relative;
+	color: white;
+	left: 0;
+	margin-top: 0;
+	box-shadow: 2px 2px 2px black;
+
+}
+
+.selecione{
+	margin-top: 0;
+	font-size: 0.9em;
+	padding:2%;
+	text-shadow: 6px -6px 12px black;
+}
+
+
+.botaum{
+	text-decoration: none;
+	color: white;
+	width: 44%;
+	height: 97%;
+	display: inline-block;
+	float: left;
+	margin-left: 4%;
+	margin-bottom: 4%;
+	font-size: 3em;
+}
+
+.botaum:hover{
+	transform: scale(1.15);
+	transition: 0.5s;
+}
+
+
+
+
+.secBotaum{
+	font-size: 0.27em;
+
+}
+
+
+#botaum1{
+
+	background-color: #3333FF;
+}
+
+#botaum2{
+	background-color: red;	
+
+}
+
+#botaum3{
+	background-color: #2E8B57;
+}
+
+#botaum4{
+	background-color: orange;
+}
+
+#botaum5{
+	background-color: brown;
+	margin-bottom: 0;
+}
+
+#botaum6{
+	background-color: #9932CC;
+	margin-bottom: 0;
+}
+
+
+#corujaMenu{
+	width: 12%;
+	height: 28%;
+	float: left;
+	display: inline;
+	padding-top: 2%;
+	padding-left: 44%;
+
+	
+}
+
+#corujaMenu:hover{
+	transform: scale(1.1);
+	transition: 0.5s;
+}
+
+
+
+.menuIcone{
+	width: 45%;
+	height: 45%;
+	display: block;
+	margin-left: 27%;
+	margin-top: 6%;
+}
+
+#iconeIngressar{
+	margin-left: 40%;
+	margin-top: 15%;
+	margin-bottom: 10%;
+	width: 23%;
+	height: 23%;
+	display: block;
+}
+
+#iconeSocial{
+	margin-left: 35%;
+	margin-top: 12%;
+	margin-bottom: 10%;
+	width: 29%;
+	height: 29%;
+	display: block;
+}
+
+
+#iconeCampus{
+	margin-left: 35%;
+	margin-top: 12%;
+	margin-bottom: 10%;
+	width: 29%;
+	height: 29%;
+	display: block;
+}
+
+#iconeUTF{
+	margin-left: 27%;
+	margin-top: 10%;
+	margin-bottom: 2%;
+	width: 49%;
+	height: 17%;
+	display: block;
+}
+
+
+
+
+
+
+
+/*  -------------------------------------------  Em pé  ------------------------------------------ */
+
+
+
+@media screen and (min-width:992px) { 
+
+	*{
+		font-size: 54px;
+	}
+
+}
+
+
+@media screen and (min-width:250px) { 
+
+	*{
+		font-size: 11px;
+	}
+
+}
+
+
+@media screen and (min-width:310px) { 
+
+	*{
+		font-size: 19px;
+	}
+
+}
+
+
+
+@media screen and (min-width:350px) { 
+
+	*{
+		font-size: 21px;
+	}
+
+}
+
+
+@media screen and (min-width:710px) { 
+
+	*{
+		font-size: 37px;
+	}
+
+}
+
+
+@media screen and (min-width:750px) { 
+
+	*{
+		font-size: 29px;
+	}
+
+}
+
+@media screen and (min-width:1500px) { 
+
+	*{
+		font-size: 100px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  -------------------------------------------  PARA CELULAR DEITADO  ------------------------------------------ */
+
+
+
+
+@media screen and (min-width:992px) and (orientation: landscape){ 
+
+	*{
+		font-size: 54px;
+	}
+
+}
+
+
+@media screen and (min-width:250px) and (orientation: landscape){ 
+
+	*{
+		font-size: 8px;
+	}
+
+}
+
+
+@media screen and (min-width:310px) and (orientation: landscape){ 
+
+	*{
+		font-size: 12px;
+	}
+
+}
+
+
+
+@media screen and (min-width:350px) and (orientation: landscape){ 
+
+	*{
+		font-size: 12px;
+	}
+
+}
+
+
+@media screen and (min-width:710px) and (orientation: landscape){ 
+
+	*{
+		font-size: 37px;
+	}
+
+}
+
+
+@media screen and (min-width:750px) and (orientation: landscape){ 
+
+	*{
+		font-size: 29px;
+	}
+
+}
+
+@media screen and (min-width:1500px) and (orientation: landscape){ 
+
+	*{
+		font-size: 50px;
+	}
+
+	#iconeCampus{
+	margin-left: 35%;
+	margin-top: 12%;
+	margin-bottom: 10%;
+	width: 15%;
+	height: 15%;
+	display: block;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /*  -------------------------------------------  Acender a tela ao inicio  ------------------------------------------ */
+
+
+
+.fadeIn {
+-webkit-animation: fadeIn 0.6s ease-in-out;
+-moz-animation: fadeIn 0.6s ease-in-out;
+-o-animation: fadeIn 0.6s ease-in-out;
+animation: fadeIn 0.6s ease-in-out;
+}
+
+
+
+
+
+
+@-webkit-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; } 
+}
+@-moz-keyframes fadeIn {
+0% { opacity: 0;}
+100% { opacity: 1; }
+}
+@-o-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+@keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*  ######################################      Campus SH     ###################################### */
+
+
+
+.bodyCampus{
+	margin:0;
+	background-image: url(fundo3.jpg);
+}
+
+.headerCampus{
+	width: 100%;
+	height: 10%;
+	display: inline-block;
+	background-color: red;
+	color: white;
+	border-bottom: 0.2em solid #8B2323;
+	
+
+}
+
+.foto{
+	width: 100%;
+	height: 40%;
+	border-bottom: 1px solid black;
+	display: inline-block;
+}
+
+
+.mainCampus{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+}
+
+
+.campus{
+	margin-top: 0%;
+	display: block;
+	margin-bottom: 0;
+	margin-left: 5%;
+	font-size: 1.1em;
+	padding-top: 1.2%;
+}
+
+
+.nomeCampus{
+	margin-top: 0;
+	display: inline-block;
+	font-size: 1.4em;
+	padding-left: 25%;
+	margin-bottom: 0;
+	padding-bottom: 1.2%;
+}
+
+
+
+
+.descricaoCampus{
+
+	border: 0.1em solid white;
+	display: inline-block;
+	text-indent: 2%;
+	margin-top: 3%;
+	margin-left: 4%;
+	
+	width: 90%;
+	background-color: rgb(99,12,3);
+	color: white;
+	
+
+}
+
+.listaCampus{
+	width: 90%;
+	word-wrap:break-word;
+	display: inline-block;
+	padding-left: 3%;
+
+
+}
+
+
+.linhaListaCampus{
+
+	font-size: 0.8em;
+	padding-bottom: 0.5em;
+
+}
+
+.cursosDisponiveis{
+
+	margin-top: 4%;
+	text-align: center;
+	background-color: red;
+	color: white;
+	font-size: 0.9em;
+	padding: 2% 0;
+	margin-bottom: 10%;
+}
+
+.cursosCampus{
+	text-decoration: none;
+	width: 100%;
+	background-color: rgba(0,0,0,0.7);
+	
+	margin-bottom: 2%;
+	padding-bottom: 2%;
+
+}
+
+
+.linkCampusCurso{
+	padding: 2% 3%;
+	text-decoration: none;
+	font-size: 0.7em;
+	display: block;
+	color: white;
+	background-color: rgb(99,12,3);
+	margin-bottom: 3%;
+	margin-left: 5%;
+	margin-right: 5%;
+
+	text-align: center;
+	border: 0.1em solid white;
+
+}
+
+
+
+
+
+
+
+
+
+/*                 #################################       cursoos       ################################ */
+
+
+
+.bodyCursos{
+	margin:0;
+	background-image: url(fundo3.jpg);
+}
+
+.headerCursoSH{
+	width: 100%;
+	height: 10%;
+	display: inline-block;
+	background-color: #3333FF;
+	color: white;
+	border-bottom: 0.2em solid #000066;
+	margin-bottom: 3%;
+	
+	
+
+}
+
+.fotoSocial{
+	width: 100%;
+	height: 40%;
+	border-bottom: 1px solid black;
+	display: inline-block;
+}
+
+
+.mainCursos{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+}
+
+
+.cursos{
+	margin-top: 0%;
+	display: block;
+	margin-bottom: 0;
+	margin-left: 5%;
+	font-size: 1.1em;
+	padding-top: 1.2%;
+}
+
+
+.nomeCurso{
+	margin-top: 0;
+	display: inline-block;
+	font-size: 1.4em;
+	padding-left: 25%;
+	margin-bottom: 0;
+	padding-bottom: 1.2%;
+}
+
+
+
+
+.descricaoCursos{
+
+	border: 0.1em solid white;
+	display: inline-block;
+	text-indent: 2%;
+	margin-top: 3%;
+	margin-left: 4%;
+	
+	width: 90%;
+	background-color: rgb(32,32,90);
+	color: white;
+	
+
+}
+
+.listaCursos{
+	width: 90%;
+	word-wrap:break-word;
+	display: inline-block;
+	padding-left: 3%;
+
+	text-align: justify;
+}
+
+
+.linhaListaCursos{
+
+	font-size: 0.8em;
+	padding-bottom: 0.5em;
+
+}
+
+.campusDisponiveis{
+
+	margin-top: 4%;
+	text-align: center;
+	background-color: #3333FF;
+	color: white;
+	font-size: 0.9em;
+	padding: 2% 0;
+	margin-bottom: 10%;
+}
+
+.campusCursos{
+	text-decoration: none;
+	width: 100%;
+	background-color: rgba(0,0,0,0.7);
+	
+	margin-bottom: 2%;
+	padding-bottom: 2%;
+
+}
+
+
+.linkCursoCampus{
+	padding: 2% 3%;
+	text-decoration: none;
+	font-size: 0.7em;
+	display: block;
+	color: white;
+	background-color: rgb(32,32,90); 
+	margin-bottom: 3%;
+	margin-left: 5%;
+	margin-right: 5%;
+
+	text-align: center;
+	border: 0.1em solid white;
+
+}
+
+
+
+
+/* ###########################################             PAgina social            ###########################################*/
+
+
+
+
+
+
+.bodySocial{
+	margin:0;
+	background-image: url(fundo3.jpg);
+}
+
+.headerSocialSH{
+	width: 100%;
+	height: 10%;
+	display: inline-block;
+	background-color: orange;
+	color: white;
+	border-bottom: 0.2em solid rgb(176,80,16);
+	margin-bottom: 4%;
+	
+
+}
+
+.fotoSocial{
+	width: 100%;
+	height: 40%;
+	border-bottom: 1px solid black;
+	display: inline-block;
+}
+
+
+.mainSocial{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+}
+
+
+.social{
+	margin-top: 0%;
+	display: block;
+	margin-bottom: 0;
+	margin-left: 5%;
+	font-size: 1.1em;
+	padding-top: 1.2%;
+}
+
+
+.nomeSocial{
+	margin-top: 0;
+	display: inline-block;
+	font-size: 1.4em;
+	padding-left: 25%;
+	margin-bottom: 0;
+	padding-bottom: 1.2%;
+}
+
+
+
+
+.descricaoSocial{
+
+	border: 0.1em solid white;
+	display: inline-block;
+	text-indent: 2%;
+
+	margin-left: 4%;
+	
+	width: 90%;
+	background-color: rgb(176,80,16);
+	color: white;
+	margin-bottom: 3%;
+
+}
+
+.listaSocial{
+	width: 90%;
+	word-wrap:break-word;
+	display: inline-block;
+	padding-left: 3%;
+
+	text-align: justify;
+}
+
+
+.linhaListaSocial{
+
+	font-size: 0.8em;
+	padding-bottom: 0.5em;
+
+}
+
+.socialDisponiveis{
+
+	margin-top: 4%;
+	text-align: center;
+	background-color: orange;
+	color: white;
+	font-size: 0.9em;
+	padding: 2% 0;
+	margin-bottom: 10%;
+}
+
+.campusSocial{
+	text-decoration: none;
+	width: 100%;
+	background-color: rgba(0,0,0,0.7);
+	
+	margin-bottom: 2%;
+	padding-bottom: 2%;
+
+}
+
+
+.linkSocial{
+	padding: 2% 3%;
+	text-decoration: none;
+	font-size: 0.7em;
+	display: block;
+	color: white;
+	background-color: rgb(194,88,17); 
+	margin-bottom: 3%;
+	margin-left: 5%;
+	margin-right: 5%;
+
+	text-align: center;
+	border: 0.1em solid white;
+
+}
+
+
+.tituloListaSocial{
+
+	text-align: center;
+	margin-bottom: 5%;
+	border-bottom: 1px solid white;
+	border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ###########################################             PAgina sobre            ###########################################*/
+
+
+
+
+
+
+.bodySobre{
+	margin:0;
+	background-image: url(fundo3.jpg);
+}
+
+.headerSobreSH{
+	width: 100%;
+	height: 10%;
+	display: inline-block;
+	background-color:  brown;
+	color: white;
+	border-bottom: 0.2em solid rgb(76,31,29);
+	margin-bottom: 4%;
+	padding-top: 2%;
+	
+
+}
+
+.fotoSobre{
+	width: 100%;
+	height: 40%;
+	border-bottom: 1px solid black;
+	display: inline-block;
+}
+
+
+.mainSobre{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+}
+
+
+.sobre{
+	margin-top: 0%;
+	display: block;
+	margin-bottom: 0;
+	margin-left: 10%;
+	font-size: 1.1em;
+	padding-top: 1.2%;
+}
+
+
+.nomeSobre{
+	margin-top: 0;
+	display: inline-block;
+	font-size: 1.4em;
+	text-align: center;
+	margin-bottom: 0;
+	padding-bottom: 1.2%;
+	margin-left: 20%;
+}
+
+
+
+
+.descricaoSobre{
+
+	border: 0.1em solid white;
+	display: inline-block;
+	text-indent: 2%;
+
+	margin-left: 4%;
+	
+	width: 90%;
+	background-color: rgb(76,31,29);
+	color: white;
+	margin-bottom: 3%;
+
+}
+
+.listaSobre{
+	width: 90%;
+	word-wrap:break-word;
+	display: inline-block;
+	padding-left: 3%;
+
+	text-align: justify;
+}
+
+
+.linhaListaSobre{
+
+	font-size: 0.8em;
+	padding-bottom: 0.5em;
+
+}
+
+.sobreDisponiveis{
+
+	margin-top: 4%;
+	text-align: center;
+	background-color: brown;
+	color: white;
+	font-size: 0.9em;
+	padding: 2% 0;
+	margin-bottom: 10%;
+}
+
+.campusSobre{
+	text-decoration: none;
+	width: 100%;
+	background-color: rgba(0,0,0,0.7);
+	
+	margin-bottom: 2%;
+	padding-bottom: 2%;
+
+}
+
+
+.linkSobre{
+	padding: 2% 3%;
+	text-decoration: none;
+	font-size: 0.7em;
+	display: block;
+	color: white;
+	background-color: rgb(194,88,17); 
+	margin-bottom: 3%;
+	margin-left: 5%;
+	margin-right: 5%;
+
+	text-align: center;
+	border: 0.1em solid white;
+
+}
+
+
+.tituloListaSobre{
+
+	text-align: center;
+	margin-bottom: 5%;
+	border-bottom: 1px solid white;
+	border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+/* ###########################################             PAgina Ingressar          ###########################################*/
+
+
+
+
+
+
+.bodyIngressar{
+	margin:0;
+	background-image: url(fundo3.jpg);
+}
+
+.headerIngressarSH{
+	width: 100%;
+	height: 10%;
+	display: inline-block;
+	background-color: #9932CC;
+	color: white;
+	border-bottom: 0.2em solid rgb(60,13,47);
+	margin-bottom: 4%;
+	
+
+}
+
+.fotoIngressar{
+	width: 100%;
+	height: 40%;
+	border-bottom: 1px solid black;
+	display: inline-block;
+}
+
+
+.mainIngressar{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+}
+
+
+.ingressar{
+	margin-top: 0%;
+	display: block;
+	margin-bottom: 0;
+	margin-left: 5%;
+	font-size: 1.1em;
+	padding-top: 1.2%;
+}
+
+
+.nomeIngressar{
+	margin-top: 0;
+	display: inline-block;
+	font-size: 1.4em;
+	padding-left: 25%;
+	margin-bottom: 0;
+	padding-bottom: 1.2%;
+}
+
+
+
+
+.descricaoIngressar{
+
+	border: 0.1em solid white;
+	display: inline-block;
+	text-indent: 2%;
+
+	margin-left: 4%;
+	
+	width: 90%;
+	background-color: rgb(60,13,47);
+	color: white;
+	margin-bottom: 5%;
+
+}
+
+.listaIngressar{
+	width: 90%;
+	word-wrap:break-word;
+	display: inline-block;
+	padding-left: 3%;
+
+	text-align: justify;
+}
+
+
+.linhaListaIngressar{
+
+	font-size: 0.8em;
+	padding-bottom: 0.5em;
+
+}
+
+.ingressarDisponiveis{
+
+	margin-top: 4%;
+	text-align: center;
+	background-color: #9932CC;
+	color: white;
+	font-size: 0.9em;
+	padding: 2% 0;
+	margin-bottom: 10%;
+}
+
+.campusIngressar{
+	text-decoration: none;
+	width: 100%;
+	background-color: rgba(0,0,0,0.7);
+	
+	margin-bottom: 2%;
+	padding-bottom: 2%;
+
+}
+
+
+.linkIngressar{
+	padding: 2% 3%;
+	text-decoration: none;
+	font-size: 0.7em;
+	display: block;
+	color: white;
+	background-color: rgb(194,88,17); 
+	margin-bottom: 3%;
+	margin-left: 5%;
+	margin-right: 5%;
+
+	text-align: center;
+	border: 0.1em solid white;
+
+}
+
+
+.tituloListaIngressar{
+
+	text-align: center;
+	margin-bottom: 5%;
+	border-bottom: 1px solid white;
+	border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+/* ###########################################             PAgina graduação        ###########################################*/
+
+
+
+
+
+
+.bodyGraduacao{
+	margin:0;
+	background-image: url(fundo3.jpg);
+}
+
+.headerGraduacaoSH{
+	width: 100%;
+	height: 10%;
+	display: inline-block;
+	background-color: #2E8B57;
+	color: white;
+	border-bottom: 0.2em solid rgb(28,62,40);;
+	margin-bottom: 4%;
+	
+
+}
+
+.fotoGraduacao{
+	width: 100%;
+	height: 40%;
+	border-bottom: 1px solid black;
+	display: inline-block;
+}
+
+
+.mainGraduacao{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+}
+
+
+.graduacao{
+	margin-top: 0%;
+	display: block;
+	margin-bottom: 0;
+	margin-left: 10%;
+	font-size: 1.1em;
+	padding-top: 1.2%;
+}
+
+
+.nomeGraduacao{
+	margin-top: 0;
+	display: inline-block;
+	font-size: 1.4em;
+	padding-left: 25%;
+	margin-bottom: 0;
+	padding-bottom: 1.2%;
+}
+
+
+
+
+.descricaoGraduacao{
+
+	border: 0.1em solid white;
+	display: inline-block;
+	text-indent: 2%;
+
+	margin-left: 4%;
+	
+	width: 90%;
+	background-color: rgb(28,62,40);
+	color: white;
+	margin-bottom: 5%;
+
+}
+
+.listaGraduacao{
+	width: 90%;
+	word-wrap:break-word;
+	display: inline-block;
+	padding-left: 3%;
+
+	text-align: justify;
+}
+
+
+.linhaListaGraduacao{
+
+	font-size: 0.8em;
+	padding-bottom: 0.5em;
+
+}
+
+.graduacaoDisponiveis{
+
+	margin-top: 4%;
+	text-align: center;
+	background-color: #9932CC;
+	color: white;
+	font-size: 0.9em;
+	padding: 2% 0;
+	margin-bottom: 10%;
+}
+
+.campusGraduacao{
+	text-decoration: none;
+	width: 100%;
+	background-color: rgba(0,0,0,0.7);
+	
+	margin-bottom: 2%;
+	padding-bottom: 2%;
+
+}
+
+
+.linkGraduacao{
+	padding: 2% 3%;
+	text-decoration: none;
+	font-size: 0.7em;
+	display: block;
+	color: white;
+	background-color: rgb(194,88,17); 
+	margin-bottom: 3%;
+	margin-left: 5%;
+	margin-right: 5%;
+
+	text-align: center;
+	border: 0.1em solid white;
+
+}
+
+
+.tituloListaGraduacao{
+
+	text-align: center;
+	margin-bottom: 5%;
+	border-bottom: 1px solid white;
+	border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$4    MENUS   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+
+
+
+
+
+
+
+
+
+
+/*                 #################################      MENU  cursoos       ################################ */
+
+
+
+.bodyCursosMenu{
+	margin:0;
+	background-image: url(fundo3.jpg);
+}
+
+.headerCursoSHMenu{
+	width: 100%;
+	height: 10%;
+	display: inline-block;
+	background-color: #3333FF;
+	color: white;
+	border-bottom: 0.2em solid #000066;
+	padding-bottom: 2%;
+	font-size: 1.2em;
+	text-align: center;
+	
+	
+
+}
+
+.fotoSocialMenu{
+	width: 100%;
+	height: 40%;
+	border-bottom: 1px solid black;
+	display: inline-block;
+}
+
+
+.mainCursosMenu{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+	padding-bottom: 5%;
+}
+
+
+.cursosMenu{
+	margin-top: 0%;
+	display: block;
+	margin-bottom: 0;
+	font-size: 1.1em;
+	padding: 0% 0%;
+	display: inline-block;
+
+}
+
+
+.nomeCursoMenu{
+	margin-top: 0;
+	display: inline-block;
+	font-size: 1.4em;
+	padding-left: 25%;
+	margin-bottom: 0;
+	padding-bottom: 1.2%;
+}
+
+
+
+
+.descricaoCursosMenu{
+
+	border: 0.1em solid white;
+	display: inline-block;
+	text-indent: 2%;
+	margin-top: 3%;
+	margin-left: 4%;
+	
+	width: 90%;
+	background-color: rgb(32,32,90);
+	color: white;
+	
+
+}
+
+.listaCursosMenu{
+	width: 90%;
+	word-wrap:break-word;
+	display: inline-block;
+	padding-left: 3%;
+
+	text-align: justify;
+}
+
+
+.linhaListaCursosMenu{
+
+	font-size: 0.8em;
+	padding-bottom: 0.5em;
+
+}
+
+.campusDisponiveisMenu{
+
+	
+	text-align: left;
+	background-color: rgb(255,255,255);
+	color: rgb(51,51,119);
+	font-size: 0.9em;
+	padding: 2% 7%;
+	margin-bottom: 10%;
+	border:2px solid rgb(51,51,119);
+	margin-top: 0;
+
+}
+
+.campusCursos{
+	text-decoration: none;
+	width: 100%;
+	background-color: rgba(0,0,0,0.7);
+	
+	margin-bottom: 2%;
+	padding-bottom: 2%;
+
+}
+
+
+.linkCursoCampusMenu{
+	padding: 2% 3%;
+	text-decoration: none;
+	font-size: 0.7em;
+	display: block;
+	color: white;
+	background-color: #3333FF; 
+	margin-bottom: 3%;
+	margin-left: 5%;
+	margin-right: 5%;
+
+	text-align: center;
+	border: 0.1em solid white;
+
+}
+
+.linkCursoCampusMenu2{
+	padding: 2% 3%;
+	text-decoration: none;
+	font-size: 0.7em;
+	display: block;
+	color: white;
+	background-color: #000066;
+	margin-bottom: 3%;
+	margin-left: 5%;
+	margin-right: 5%;
+
+	text-align: center;
+	border: 0.1em solid white;
+
+}
+
+
+.iconeMenu{
+	width: 5.5%;
+	height: 5.5%;
+	margin-left: 2%;
+	margin-top:7%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*                 #################################      MENU  campus       ################################ */
+
+
+
+.bodyCampusMenu{
+	margin:0;
+	background-image: url(fundo3.jpg);
+}
+
+.headerCampusSHMenu{
+	width: 100%;
+	height: 10%;
+	display: inline-block;
+	background-color: red;
+	color: white;
+	border-bottom: 0.2em solid #8B2323;
+	padding-bottom: 2%;
+	font-size: 1.2em;
+	text-align: center;
+	
+	
+
+}
+
+.fotoCampusMenu{
+	width: 100%;
+	height: 40%;
+	border-bottom: 1px solid black;
+	display: inline-block;
+}
+
+
+.mainCampusMenu{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+}
+
+
+.CampusMenu{
+	margin-top: 0%;
+	display: block;
+	margin-bottom: 0;
+	font-size: 1.1em;
+	padding: 0% 0%;
+	display: inline-block;
+
+}
+
+
+.nomeCampusMenu{
+	margin-top: 0;
+	display: inline-block;
+	font-size: 1.4em;
+	padding-left: 25%;
+	margin-bottom: 0;
+	padding-bottom: 1.2%;
+}
+
+
+
+
+.descricaoCampussMenu{
+
+	border: 0.1em solid white;
+	display: inline-block;
+	text-indent: 2%;
+	margin-top: 3%;
+	margin-left: 4%;
+	
+	width: 90%;
+	background-color: rgb(32,32,90);
+	color: white;
+	
+
+}
+
+.listaCampusMenu{
+	width: 90%;
+	word-wrap:break-word;
+	display: inline-block;
+	padding-left: 3%;
+
+	text-align: justify;
+}
+
+
+.linhaListaCampusMenu{
+
+	font-size: 0.8em;
+	padding-bottom: 0.5em;
+
+}
+
+.cursosDisponiveisMenu{
+
+	
+	text-align: left;
+	background-color: rgb(255,255,255);
+	color: rgb(236,59,59);
+	font-size: 0.9em;
+	padding: 2% 7%;
+	margin-bottom: 10%;
+	border:2px solid rgb(236,59,59);
+	margin-top: 0;
+
+}
+
+.cursosCampus{
+	text-decoration: none;
+	width: 100%;
+	background-color: rgba(0,0,0,0.7);
+	
+	margin-bottom: 2%;
+	padding-bottom: 2%;
+
+}
+
+
+.linkCampusCursosMenu{
+	padding: 2% 3%;
+	text-decoration: none;
+	font-size: 0.7em;
+	display: block;
+	color: white;
+	background-color: red; 
+	margin-bottom: 3%;
+	margin-left: 5%;
+	margin-right: 5%;
+
+	text-align: center;
+	border: 0.1em solid white;
+
+}
+
+.linkCampusCursosMenu2{
+	padding: 2% 3%;
+	text-decoration: none;
+	font-size: 0.7em;
+	display: block;
+	color: white;
+	background-color: #8B2323;
+	margin-bottom: 3%;
+	margin-left: 5%;
+	margin-right: 5%;
+
+	text-align: center;
+	border: 0.1em solid white;
+
+}
+
+
+.iconeMenu{
+	width: 5.5%;
+	height: 5.5%;
+	margin-left: 2%;
+	margin-top:7%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*                 #################################      MENU  Graduacao       ################################ */
+
+
+
+.bodyGraduacaoMenu{
+	margin:0;
+	background-image: url(fundo3.jpg);
+}
+
+.headerGraduacaoSHMenu{
+	width: 100%;
+	height: 10%;
+	display: inline-block;
+	background-color: #2E8B57;
+	color: white;
+	border-bottom: 0.2em solid rgb(28,62,40);
+	padding-bottom: 2%;
+	font-size: 1.2em;
+	text-align: center;
+	
+	
+
+}
+
+.fotoGraduacaoMenu{
+	width: 100%;
+	height: 40%;
+	border-bottom: 1px solid black;
+	display: inline-block;
+}
+
+
+.mainGraduacaoMenu{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+}
+
+
+.GraduacaoMenu{
+	margin-top: 0%;
+	display: block;
+	margin-bottom: 0;
+	font-size: 1.1em;
+	padding: 0% 0%;
+	display: inline-block;
+
+}
+
+
+.nomeGraduacaoMenu{
+	margin-top: 0;
+	display: inline-block;
+	font-size: 1.4em;
+	padding-left: 25%;
+	margin-bottom: 0;
+	padding-bottom: 1.2%;
+}
+
+
+
+
+.descricaoGraduacaoMenu{
+
+	border: 0.1em solid white;
+	display: inline-block;
+	text-indent: 2%;
+	margin-top: 3%;
+	margin-left: 4%;
+	
+	width: 90%;
+	background-color: rgb(32,32,90);
+	color: white;
+	
+
+}
+
+.listaGraduacaoMenu{
+	width: 90%;
+	word-wrap:break-word;
+	display: inline-block;
+	padding-left: 3%;
+
+	text-align: justify;
+}
+
+
+.linhaListaGraduacaoMenu{
+
+	font-size: 0.8em;
+	padding-bottom: 0.5em;
+
+}
+
+.GraduacaoDisponiveisMenu{
+
+	
+	text-align: left;
+	background-color: rgb(255,255,255);
+	color: #2E8B57;
+	font-size: 0.9em;
+	padding: 2% 7%;
+	margin-bottom: 10%;
+	border:2px solid #2E8B57;
+	margin-top: 0;
+
+}
+
+.cursosGraduacao{
+	text-decoration: none;
+	width: 100%;
+	background-color: rgba(0,0,0,0.7);
+	
+	margin-bottom: 2%;
+	padding-bottom: 2%;
+
+}
+
+
+.linkGraduacaoMenu{
+	padding: 2% 3%;
+	text-decoration: none;
+	font-size: 0.7em;
+	display: block;
+	color: white;
+	background-color: rgb(28,62,40); 
+	margin-bottom: 3%;
+	margin-left: 5%;
+	margin-right: 5%;
+
+	text-align: center;
+	border: 0.1em solid white;
+
+}
+
+.linkGraduacaoMenu2{
+	padding: 2% 3%;
+	text-decoration: none;
+	font-size: 0.7em;
+	display: block;
+	color: white;
+	background-color:  #2E8B57; 
+	margin-bottom: 3%;
+	margin-left: 5%;
+	margin-right: 5%;
+
+	text-align: center;
+	border: 0.1em solid white;
+
+}
+
+
+.iconeMenu{
+	width: 5.5%;
+	height: 5.5%;
+	margin-left: 2%;
+	margin-top:7%;
+}
+
+
+
+
+
+/*                 #################################      MENU  Social       ################################ */
+
+
+
+.bodySocialMenu{
+	margin:0;
+	background-image: url(fundo3.jpg);
+}
+
+.headerSocialSHMenu{
+	width: 100%;
+	height: 10%;
+	display: inline-block;
+	background-color: orange;
+	color: white;
+	border-bottom: 0.2em solid rgb(176,80,16);
+	text-align: center;
+	font-size: 1.2em;
+	padding-bottom: 2%;
+	
+	
+
+}
+
+.fotoSocialMenu{
+	width: 100%;
+	height: 40%;
+	border-bottom: 1px solid black;
+	display: inline-block;
+}
+
+
+.mainSocialMenu{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+}
+
+
+.SocialMenu{
+	margin-top: 0%;
+	display: block;
+	margin-bottom: 0;
+	font-size: 1.1em;
+	padding: 0% 0%;
+	display: inline-block;
+	text-align: center;
+
+}
+
+
+.nomeSocialMenu{
+	margin-top: 0;
+	display: inline-block;
+	font-size: 1.4em;
+	padding-left: 25%;
+	margin-bottom: 0;
+	padding-bottom: 1.2%;
+}
+
+
+
+
+.socialGraduacaoMenu{
+
+	border: 0.1em solid white;
+	display: inline-block;
+	text-indent: 2%;
+	margin-top: 3%;
+	margin-left: 4%;
+	
+	width: 90%;
+	background-color: rgb(32,32,90);
+	color: white;
+	
+
+}
+
+.listaSocialMenu{
+	width: 90%;
+	word-wrap:break-word;
+	display: inline-block;
+	padding-left: 3%;
+
+	text-align: justify;
+}
+
+
+.linhaListaSocialMenu{
+
+	font-size: 0.8em;
+	padding-bottom: 0.5em;
+
+}
+
+.SocialDisponiveisMenu{
+
+	
+	text-align: left;
+	background-color: rgb(255,255,255);
+	color: orange;
+	font-size: 0.9em;
+	padding: 2% 7%;
+	margin-bottom: 10%;
+	border:2px solid orange;
+	margin-top: 0;
+
+}
+
+.cursosSocial{
+	text-decoration: none;
+	width: 100%;
+	background-color: rgba(0,0,0,0.7);
+	
+	margin-bottom: 2%;
+	padding-bottom: 2%;
+
+}
+
+
+.linkSocialMenu{
+	padding: 2% 3%;
+	text-decoration: none;
+	font-size: 0.7em;
+	display: block;
+	color: white;
+	background-color: orange; 
+	margin-bottom: 3%;
+	margin-left: 5%;
+	margin-right: 5%;
+
+	text-align: center;
+	border: 0.1em solid white;
+
+}
+
+.linkSocialMenu2{
+	padding: 2% 3%;
+	text-decoration: none;
+	font-size: 0.7em;
+	display: block;
+	color: white;
+	background-color:  rgb(176,80,16); 
+	margin-bottom: 3%;
+	margin-left: 5%;
+	margin-right: 5%;
+
+	text-align: center;
+	border: 0.1em solid white;
+
+}
+
+
+.iconeMenu{
+	width: 5.5%;
+	height: 5.5%;
+	
+	margin-top:7%;
+}
+
+
+
+
+
+
+
+
+
+/*                 #################################      MENU  Como ingressar      ################################ */
+
+
+
+.bodyIngressarMenu{
+	margin:0;
+	background-image: url(fundo3.jpg);
+}
+
+.headerIngressarSHMenu{
+	width: 100%;
+	height: 10%;
+	display: inline-block;
+	background-color: #9932CC;
+	color: white;
+	border-bottom: 0.2em solid rgb(60,13,47);
+	padding-bottom: 2%;
+	font-size: 1.2em;
+	text-align: center;
+
+}
+
+
+
+
+.fotoIngressarMenu{
+	width: 100%;
+	height: 40%;
+	border-bottom: 1px solid black;
+	display: inline-block;
+}
+
+
+.mainIngressarMenu{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+	padding-bottom: 5%;
+	display: inline-block;
+}
+
+
+.IngressarMenu{
+	margin-top: 0%;
+	display: block;
+	margin-bottom: 0;
+	font-size: 1.1em;
+	padding: 0% 0%;
+	display: inline-block;
+
+}
+
+
+.nomeIngressarMenu{
+	margin-top: 0;
+	display: inline-block;
+	font-size: 1.4em;
+	padding-left: 25%;
+	margin-bottom: 0;
+	padding-bottom: 1.2%;
+}
+
+
+
+
+.ingressarGraduacaoMenu{
+
+	border: 0.1em solid white;
+	display: inline-block;
+	text-indent: 2%;
+	margin-top: 3%;
+	margin-left: 4%;
+	
+	width: 90%;
+	background-color: rgb(32,32,90);
+	color: white;
+	
+
+}
+
+.listaIngressarMenu{
+	width: 90%;
+	word-wrap:break-word;
+	display: inline-block;
+	padding-left: 3%;
+
+	text-align: justify;
+}
+
+
+.linhaListaIngressarMenu{
+
+	font-size: 0.8em;
+	padding-bottom: 0.5em;
+
+}
+
+.IngressarDisponiveisMenu{
+
+	
+	text-align: left;
+	background-color: rgb(255,255,255);
+	color: rgb(60,13,47);
+	font-size: 0.9em;
+	padding: 2% 7%;
+	margin-bottom: 10%;
+	border:2px solid rgb(60,13,47);
+	margin-top: 0;
+
+}
+
+
+.cursosIngressar{
+	text-decoration: none;
+	width: 100%;
+	background-color: rgba(0,0,0,0.7);
+	
+	margin-bottom: 2%;
+	padding-bottom: 2%;
+	padding-bottom: 5%;
+
+}
+
+
+.linkIngressarMenu{
+	padding: 2% 3%;
+	text-decoration: none;
+	font-size: 0.7em;
+	display: block;
+	color: white;
+	background-color: #9932CC; 
+	margin-bottom: 3%;
+	margin-left: 5%;
+	margin-right: 5%;
+
+	text-align: center;
+	border: 0.1em solid white;
+
+}
+
+.linkIngressarMenu2{
+	padding: 2% 3%;
+	text-decoration: none;
+	font-size: 0.7em;
+	display: block;
+	color: white;
+	background-color:  rgb(60,13,47); 
+	margin-bottom: 3%;
+	margin-left: 5%;
+	margin-right: 5%;
+
+	text-align: center;
+	border: 0.1em solid white;
+
+}
+
+
+.iconeMenu{
+	width: 5.5%;
+	height: 5.5%;
+	margin-left: 0%;
+	margin-top:7%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*     ___________ Parte do curso menu __________ */
+
+.tipoCursoMenu{
+	color: white;
+	padding-left: 2%;
+	font-size: 0.8em;
+}
+
+
+
+.tipoTecnico{
+
+}
+
+.tipoTecnologo{
+
+}
+
+.tipoBacharelado{
+
+}
+
+.tipoLicenciatura{
+
+}
+
+
+/* ------------------------------------------------ */
+
+
+
+/****         MENU FIXO       ****/
+
+.menuFixo{
+	width: 100%;
+	height: 10%;
+	display: inline;
+	
+	position: fixed;
+
+}
+
+.setaMenu{
+	width: 6.9%;
+	height: 4.5%;
+	position: fixed;
+	padding-left: 1%;
+	top: 94.8%;
+	left: 80%;
+
+}
+
+.setaMenu2{
+	width: 6.5%;
+	height: 4.5%;
+	position: fixed;
+	
+	top: 94.8%;
+	left: 90%;
+}
+
+
+
+
